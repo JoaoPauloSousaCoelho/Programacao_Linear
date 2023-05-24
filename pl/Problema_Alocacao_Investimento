@@ -1,0 +1,11 @@
+\* Problema_alocacao_de_investimento *\
+Maximize
+Redimento_calculado_como_delta_entre_o_valor_bruto_e_o_valor_inicial:
+ 1.05 Inv_A + 1.08 Inv_B
+Subject To
+Montante_total_de_investimento: Inv_A + Inv_B = 5000
+recomendacao_minima_da_razao_de_investimento_nos_produto_A_e_B: Inv_A
+ - 0.5 Inv_B >= 0
+recomendacao_minima_de_investimento_no_produto_A: Inv_A >= 1250
+recomendacao_minima_de_investimento_no_produto_B: Inv_B <= 2500
+End

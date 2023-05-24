@@ -1,0 +1,13 @@
+\* Problema_do_Sapateiro *\
+Maximize
+OBJ: 2 total_cintos + 5 total_sapatos
+Subject To
+_C1: total_cintos + 2 total_sapatos <= 6
+_C2: 0.2 total_cintos + 0.166666666667 total_sapatos <= 8
+Bounds
+ 0 <= total_cintos
+ 0 <= total_sapatos
+Generals
+total_cintos
+total_sapatos
+End

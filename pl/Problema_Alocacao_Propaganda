@@ -1,0 +1,9 @@
+\* Problema_distribuicao_horas_de_estudo *\
+Maximize
+OBJ: A + 2 B + 3 C
+Subject To
+Restricao_media_de_pontos_necessaria_na_disciplina_A: A >= 40
+Restricao_media_de_pontos_necessaria_na_disciplina_B: 2 B >= 30
+Restricao_media_de_pontos_necessaria_na_disciplina_C: 3 C >= 0
+Restricao_quantidade_total_de_horas: A + B + C = 100
+End
